@@ -108,7 +108,7 @@ setup(
     # py_modules=['mypackage'],
 
     entry_points={
-        'console_scripts': ['cmseek=cmseek'],
+        'console_scripts': ['cmseek=cmseek:main'],
     },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
